@@ -7,9 +7,9 @@ const Menu = () => {
 	const NO_IMPORT = 'forgot to import useState from React', CALL_FUNCTION = 'call function with () in event'
 
 	let content = null
-	if( selectedItem === NO_IMPORT ) {
+	if( selectedItem == NO_IMPORT ) {
 		content = <NoImport />
-	} else if( selectedItem === CALL_FUNCTION ) {
+	} else if( selectedItem == CALL_FUNCTION ) {
 		content = <CallFunctionInEvent />
 	}
 
